@@ -1,0 +1,11 @@
+/Users/camper/Projects/chatWithPeople/chatWithPeople/bin/Debug/netcoreapp2.1/chatWithPeople.deps.json
+/Users/camper/Projects/chatWithPeople/chatWithPeople/bin/Debug/netcoreapp2.1/chatWithPeople.runtimeconfig.json
+/Users/camper/Projects/chatWithPeople/chatWithPeople/bin/Debug/netcoreapp2.1/chatWithPeople.runtimeconfig.dev.json
+/Users/camper/Projects/chatWithPeople/chatWithPeople/bin/Debug/netcoreapp2.1/chatWithPeople.dll
+/Users/camper/Projects/chatWithPeople/chatWithPeople/bin/Debug/netcoreapp2.1/chatWithPeople.pdb
+/Users/camper/Projects/chatWithPeople/chatWithPeople/obj/Debug/netcoreapp2.1/chatWithPeople.csprojAssemblyReference.cache
+/Users/camper/Projects/chatWithPeople/chatWithPeople/obj/Debug/netcoreapp2.1/chatWithPeople.csproj.CoreCompileInputs.cache
+/Users/camper/Projects/chatWithPeople/chatWithPeople/obj/Debug/netcoreapp2.1/chatWithPeople.AssemblyInfoInputs.cache
+/Users/camper/Projects/chatWithPeople/chatWithPeople/obj/Debug/netcoreapp2.1/chatWithPeople.AssemblyInfo.cs
+/Users/camper/Projects/chatWithPeople/chatWithPeople/obj/Debug/netcoreapp2.1/chatWithPeople.dll
+/Users/camper/Projects/chatWithPeople/chatWithPeople/obj/Debug/netcoreapp2.1/chatWithPeople.pdb
