@@ -14,10 +14,12 @@ namespace chatWithPeople
             string lmid = "0";
             float id = MathF.Floor(new Random().Next(1, 1000));
             string username = "Guest";
-            //Overload
+            string baseLink = Other.getUserString();
+            //Override
             id = 1;
-            username = "CBlockSurprise";
-            //End Overload
+            username = "???";
+            
+            //End Override
 
             void setColor(ConsoleColor color) {
                 Console.ForegroundColor = color;
@@ -62,8 +64,8 @@ namespace chatWithPeople
                 WebClient client = new WebClient();
                 while (true) 
                 {
-                    string nonParsedJSON = client.DownloadString("https://chatwc--cblocksurprise.repl.co/");
-                    string lengthOfMessages = client.DownloadString("https://chatwc--cblocksurprise.repl.co/lengthofmessages").Replace(".", "");
+                    string nonParsedJSON = client.DownloadString(baseLink);
+                    string lengthOfMessages = client.DownloadString(baseLink + "lengthofmessages").Replace(".", "");
                     dynamic items = Newtonsoft.Json.JsonConvert.DeserializeObject(nonParsedJSON);
                     for (int i = 0; i < Convert.ToInt32(lengthOfMessages); i++)
                     {
@@ -87,7 +89,7 @@ namespace chatWithPeople
                     dynamic datajson = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
                     if (datajson["messageId"] != lmid) {
                         lmid = datajson["messageId"];
-                        string newM = client.DownloadString("https://chatwc--cblocksurprise.repl.co/" + username + "/" + id + "/" + datajson["message"]);
+                        string newM = client.DownloadString(baseLink + username + "/" + id + "/" + datajson["message"]);
                         if (newM == "ewair423qur9fc8yqwe89r7cg0236o") { return; }
                     }
 
